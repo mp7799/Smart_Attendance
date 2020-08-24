@@ -1,4 +1,4 @@
 # Smart_Attendance
 <div align="center">
-    <img src="/screenshots/screen1.jpg" width="400px"</img> 
+    <img src="https://postimg.cc/yJqL0gRw"</img> 
 </div>
