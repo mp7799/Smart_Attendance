@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Books Information</title>
+	<link rel="stylesheet" type="text/css" href="Style/record.css">
+</head>
+<body background="Style/form_background.png">
+	<div class="taskbar">
+        <ul>
+            <li class="home"> <a href="index.html"> Home </a> </li>
+            <li> <a href="record.html"> Mark Attendance </a> </li>
+            <li> <a href="studentRecords.html"> Records </a> </li>
+            <li> <a href="query.html"> File Query </a> </li>
+            <li> <a href="login.html"> Login </a> </li>
+            <li> <a href="register.html"> Register </a> </li>
+        </ul>
+    </div>
+	<div class="collect_book_data">
+		<h1>Enter the Student Details</h1>
+		<form action="insert.php" method="post">
+			<p> Enter Registration Number </p>
+			<input type="text" name="reg_num"><br/>
+			<p> Enter First Name</p>
+			<input type="text" name="first_name"><br/>
+			<p> Enter Last Name </p>
+			<input type="text" name="last_name"><br/>
+			<p> Enter Subject Name</p>
+			<input type="text" name="subject_name"><br/>
+			<p> Enter Current Slot</p>
+			<input type="text" name="slot_name"><br/><br/>
+			<input type="submit" name="submit">
+		</form>
+	</div>
+</body>
+</html>

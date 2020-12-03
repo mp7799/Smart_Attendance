@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Employee.xsl"?>
+<Employees>
+	<Employee>
+	    <sno>1</sno>
+	    <field>First name</field>
+	    <info>Manpreet</info>
+	</Employee>
+	<Employee>
+	    <sno>2</sno>
+	    <field>Last name</field>
+	    <info>Singh</info>
+	</Employee>
+	<Employee>
+	    <sno>3</sno>
+	    <field>Subject name</field>
+	    <info>Web Programming Lab</info>
+	</Employee>
+	<Employee>
+	    <sno>4</sno>
+	    <field>Slot Name</field>
+	    <info>B Slot</info>
+	</Employee>
+	<Employee>
+	    <sno>5</sno>
+	    <field>Reg No</field>
+	    <info>65</info>
+	</Employee>
+</Employees>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="Style/register.css">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+	<br />
+    <div class="taskbar">
+        <ul>
+            <li class="home"> <a href="index.html"> Home </a> </li>
+            <li> <a href="markAttendance.html"> Mark Attendance </a> </li>
+            <li> <a href="record.html"> Records </a> </li>
+            <li> <a href="query.html"> File Query </a> </li>
+            <li> <a href="login.html"> Login </a> </li>
+            <li> <a href="register.html"> Register </a> </li>
+        </ul>
+    </div>
+    <div class = "banner">
+    	<div class="inline_block">
+    		<div>
+    			<form class="signup-form" action="register.php" method="post">
+
+			      <div class="form-header">
+			        <h1>Create Account</h1>
+			      </div>
+
+			      <div class="form-body">
+
+			        <div class="horizontal-group">
+			          <div class="form-group left">
+			            <label for="firstname" class="label-title">First name *</label>
+			            <input type="text" name="firstname" class="form-input" placeholder="enter your first name" required="required" />
+			          </div>
+			          <div class="form-group right">
+			            <label for="lastname" class="label-title">Last name</label>
+			            <input type="text" name="lastname" class="form-input" placeholder="enter your last name" />
+			          </div>
+			        </div>
+
+			        <div class="form-group">
+			          <label for="email" class="label-title">Email*</label>
+			          <input type="email" name="email" class="form-input" placeholder="enter your email" required="required">
+			        </div>
+
+			        <div class="horizontal-group">
+			          <div class="form-group left">
+			            <label for="password" class="label-title">Password *</label>
+			            <input type="password" name="password" class="form-input" placeholder="enter your password" required="required">
+			          </div>
+			          <div class="form-group right">
+			            <label for="confirm-password" class="label-title">Confirm Password *</label>
+			            <input type="password" class="form-input" id="confirm-password" placeholder="enter your password again" required="required">
+			          </div>
+			        </div>
+
+			        <div class="horizontal-group">
+			          <div class="form-group left">
+			            <label class="label-title">Gender:</label>
+			            <div class="input-group">
+			              <label for="male"><input type="radio" name="gender" value="male" id="male"> Male</label>
+			              <label for="female"><input type="radio" name="gender" value="female" id="female"> Female</label>
+			            </div>
+			          </div>
+			        </div>
+			      <div class="form-footer">
+			        <button type="submit" class="btn">Create</button>
+			      </div>
+
+			    </form>
+    		</div>
+    	</div>
+    </div>
+</body>
+</html>

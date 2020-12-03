@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Record.xsl"?>
+<Records>
+	<Record>
+	    <sno>1</sno>
+	    <field>First name</field>
+	    <info>Manpreet</info>
+	    <type>Text</type>
+	</Record>
+	<Record>
+	    <sno>2</sno>
+	    <field>Last name</field>
+	    <info>Singh</info>
+	    <type>Text</type>
+	</Record>
+	<Record>
+	    <sno>3</sno>
+	    <field>Subject name</field>
+	    <info>Web Programming Lab</info>
+	    <type>Text</type>
+	</Record>
+	<Record>
+	    <sno>4</sno>
+	    <field>Slot Name</field>
+	    <info>B Slot</info>
+	    <type>Text</type>
+	</Record>
+	<Record>
+	    <sno>5</sno>
+	    <field>Reg No</field>
+	    <info>65</info>
+	    <type>Number</type>
+	</Record>
+</Records>

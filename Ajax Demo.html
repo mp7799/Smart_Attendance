@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Ajax Demo </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <style>
+
+  body {
+  	text-align: center;
+  }
+  </style>
+<body>
+
+  <h1>Ajax With XML-HttpRequest Demo</h1>
+  
+  <br><br>
+  
+  <button type="button" class="btn btn-success" onclick="loadQueryData()">Fetch the Query Data</button>
+
+  <br><br>
+  
+  <table class="table" id="demo"></table>
+
+  <script>
+    function loadQueryData() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          updateContent(this);
+        }
+      };
+      xhttp.open("GET", "Record.xml", true);
+      xhttp.send();
+    }
+    function updateContent(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table="<tr><th>First name</th><th>Last name</th><th>Slot</th><th>Subject</th><th>Issue</th><th>Date</th></tr>";
+      var x = xmlDoc.getElementsByTagName("Record");
+      for (i = 0; i <x.length; i++) { 
+        table += 
+        "<tr><td>" + x[i].getElementsByTagName("FIRSTNAME")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("LASTNAME")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("SLOT")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("SUBJECT")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("ISSUE")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("DATE")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+      }
+      document.getElementById("demo").innerHTML = table;
+    }
+  </script>
+
+</body>
+</html>

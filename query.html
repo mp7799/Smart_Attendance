@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File Your Query</title>
+	<link rel="stylesheet" type="text/css" href="Style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script type="text/javascript" src = "query.js"></script>
+</head>
+<body class = "query">
+	<br/>
+	<div class = "taskbar">
+        <ul>
+        	<li class = "home"> <a href="index.html"> Home </a> </li>
+        	<li> <a href="markAttendance.html"> Mark Attendance </a> </li>
+        	<li> <a href="record.html"> Records </a> </li>
+        	<li> <a href="query.html"> File Query </a> </li>
+        	<li> <a href="login.html"> Login </a> </li>
+            <li> <a href="register.html"> Register </a> </li>
+        </ul>
+    <div>
+    <br/><br/><br/><br/>
+    <div class = "form_box">
+    	<form class="form_data" name = "query_form" onsubmit="return validate()" method="post">
+    		<label for="first_name">First Name</label><br>
+    		<input type="text" name="first_name"><br>
+    		<label for="last_name">Last Name</label><br>
+    		<input type="text" name="last_name"><br>
+    		<label for="username">Username</label><br>
+    		<input type="text" id = "username" name="username"/><br>
+    		<label for="query">Type your query</label><br>
+    		<input type="text" id = "query" name="type_query"/><br>
+
+    		<p class = "check_query_type" >Choose your type of query</p>
+    		<input type="checkbox" id="query_type1" name="query_type1" value="network">
+			<label for="query_type1"> Network Issue </label><br>
+			<input type="checkbox" id="query_type2" name="query_type2" value="webcam">
+			<label for="query_type2"> Webcam not working </label><br>
+			<input type="checkbox" id="query_type3" name="query_type3" value="model">
+			<label for="query_type3"> Mic Problem </label><br><br>
+
+			<p class = "gender" >Select your gender</p>
+
+			<input type="radio" id="male" name="male" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="female" value="female">
+			<label for="female">Female</label><br>
+			<input type="radio" id="other" name="other" value="other">
+			<label for="other">Other</label><br><br>
+
+			<input type="submit" name="submit">
+
+    	</form>
+    </div>
+</body>
+</html>

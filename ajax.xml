@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Records>
+  <Record>
+    <FIRSTNAME>Manpreet</FIRSTNAME>
+    <LASTNAME>Singh</LASTNAME>
+    <SLOT>A Slot</SLOT>
+    <SUBJECT>MBA Fundamentals</SUBJECT>
+    <ISSUE>Mic Issue</ISSUE>
+    <DATE>10-10-2020</DATE>
+  </Record>
+  <Record>
+    <FIRSTNAME>John</FIRSTNAME>
+    <LASTNAME>Wick</LASTNAME>
+    <SLOT>B Slot</SLOT>
+    <SUBJECT>Web Programming</SUBJECT>
+    <ISSUE>Network Issue</ISSUE>
+    <DATE>12-10-2020</DATE>
+  </Record>
+  <Record>
+    <FIRSTNAME>Tom</FIRSTNAME>
+    <LASTNAME>Cruise</LASTNAME>
+    <SLOT>C Slot</SLOT>
+    <SUBJECT>PHP Programming</SUBJECT>
+    <ISSUE>Laptop Issue</ISSUE>
+    <DATE>12-08-2020</DATE>
+  </Record>
+  <Record>
+    <FIRSTNAME>Akshay</FIRSTNAME>
+    <LASTNAME>Kumar</LASTNAME>
+    <SLOT>D Slot</SLOT>
+    <SUBJECT>SMA</SUBJECT>
+    <ISSUE>Power Cut</ISSUE>
+    <DATE>06-08-2020</DATE>
+  </Record>
+  <Record>
+    <FIRSTNAME>Liam</FIRSTNAME>
+    <LASTNAME>Neesan</LASTNAME>
+    <SLOT>E Slot</SLOT>
+    <SUBJECT>MDD</SUBJECT>
+    <ISSUE>Financial Issue</ISSUE>
+    <DATE>16-11-2020</DATE>
+  </Record>
+  <Record>
+    <FIRSTNAME>Matt</FIRSTNAME>
+    <LASTNAME>Damon</LASTNAME>
+    <SLOT>F Slot</SLOT>
+    <SUBJECT>Cloud Computing</SUBJECT>
+    <ISSUE>What Clouds!!</ISSUE>
+    <DATE>02-11-2020</DATE>
+  </Record>
+  <Record>
+    <FIRSTNAME>Tom</FIRSTNAME>
+    <LASTNAME>Jerry</LASTNAME>
+    <SLOT>G Slot</SLOT>
+    <SUBJECT>Some Security</SUBJECT>
+    <ISSUE>Could not secure</ISSUE>
+    <DATE>12-11-2020</DATE>
+  </Record>
+  <Record>
+    <FIRSTNAME>Tom</FIRSTNAME>
+    <LASTNAME>Cruise</LASTNAME>
+    <SLOT>C Slot</SLOT>
+    <SUBJECT>PHP Programming</SUBJECT>
+    <ISSUE>Laptop Issue</ISSUE>
+    <DATE>12-08-2020</DATE>
+  </Record>
+  <Record>
+    <FIRSTNAME>Liam</FIRSTNAME>
+    <LASTNAME>Neesan</LASTNAME>
+    <SLOT>E Slot</SLOT>
+    <SUBJECT>MDD</SUBJECT>
+    <ISSUE>Financial Issue</ISSUE>
+    <DATE>16-11-2020</DATE>
+  </Record>
+</Records>
